@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Selected Publications"
-subtitle = ""
+subtitle = "highlights from recent projects; abstracts as published"
 
 # Order that this section will appear in.
 weight = 10
@@ -30,4 +30,3 @@ list_format = 1
 #  6: Book chapter
 publication_type = "-1"
 +++
-

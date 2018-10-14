@@ -6,10 +6,12 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "http://jeffcarlin.github.io/"
 
 # Title of your site
-title = "Academic"
+title = "Jeff Carlin"
+
+description = "Home page of Jeff Carlin, and astronomer/astrophysicist who currently works at the Project Office of Large Synoptic Survey Telescope (LSST) in Tucson, AZ."
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -50,27 +52,27 @@ enableGitInfo = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Jeff Carlin"
+  role = "Astrophysicist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Large Synoptic Survey Telescope (LSST)", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  avatar = "jeff_germany_jul2018.png" # portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "jeffreylcarlin@gmail.com"
+  address = "LSST, 950 N. Cherry Ave., Tucson, AZ 85716 USA"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  #phone = "434 981 6902"
+  skype = "jeffcarlin"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -83,6 +85,9 @@ enableGitInfo = false
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
   logo = ""
+
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = false
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
@@ -122,7 +127,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -163,7 +168,8 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+
+  custom_css = [] #["override.css"]
   custom_js  = []
 
   # Publication types.
@@ -194,17 +200,17 @@ enableGitInfo = false
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
     date_format = "January, 2006"
 
-  # Configuration of project pages.
-  [params.projects]
-    # List publications and talks related to the project?
-    list_children = true
-
-    # Publication list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = APA
-    #   3 = MLA
-    publication_format = 3
+#  # Configuration of project pages.
+#  [params.projects]
+#    # List publications and talks related to the project?
+#    list_children = true
+#
+#    # Publication list format.
+#    #   0 = Simple
+#    #   1 = Detailed
+#    #   2 = APA
+#    #   3 = MLA
+#    publication_format = 3
 
   # Social/Academic Networking
   #
@@ -227,29 +233,44 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:test@example.org"
+    link = "mailto:jeffreylcarlin@gmail.com"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "//twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
+    icon = "ads"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://ui.adsabs.harvard.edu/#search/q=author%3A%22carlin%2C%20jeffrey%20l.%22%20database%3A%22astronomy%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fab"
+#    link = "//twitter.com/GeorgeCushen"
+
+#  [[params.social]]
+#    icon = "google-scholar"
+#    icon_pack = "ai"
+#    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+
+#  [[params.social]]
+#    icon = "github"
+#    icon_pack = "fab"
+#    link = "//github.com/jeffcarlin"
 
   [[params.social]]
-    icon = "github"
-    icon_pack = "fab"
-    link = "//github.com/gcushen"
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0002-3936-9628"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+   [[params.social]]
+     icon = "cv"
+     icon_pack = "ai"
+     link = "files/cv.pdf"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "www.linkedin.com/in/jeff-carlin-614436150"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -265,19 +286,25 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "CV"
+  url = "files/cv.pdf"
   weight = 2
+
+[[menu.main]]
+  name = "Publications"
+  #url = "#sgr_hex.md"
+  url = "#publications_selected"
+  weight = 3
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
   weight = 4
+
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 5
 
 [[menu.main]]
   name = "Teaching"
@@ -287,7 +314,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

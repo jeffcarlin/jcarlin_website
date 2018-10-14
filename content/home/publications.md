@@ -6,13 +6,13 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Recent Publications"
-subtitle = ""
+subtitle = "- see the full list on my [CV](files/cv.pdf) or at [this link](https://ui.adsabs.harvard.edu/#search/q=author%3A%22carlin%2C%20jeffrey%20l.%22%20database%3A%22astronomy%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)."
 
 # Order that this section will appear in.
 weight = 20
 
 # Number of publications to list.
-count = 10
+count = 20
 
 # List format.
 #   0 = Simple
@@ -35,4 +35,3 @@ publication_type = "-1"
 # Exclude publications that are shown in the Selected Publications widget?
 exclude_selected = false
 +++
-
