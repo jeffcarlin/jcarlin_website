@@ -11,7 +11,7 @@ baseurl = "http://jeffcarlin.github.io/"
 # Title of your site
 title = "Jeff Carlin"
 
-description = "Home page of Jeff Carlin, and astronomer/astrophysicist who currently works at the Project Office of Large Synoptic Survey Telescope (LSST) in Tucson, AZ."
+description = "Home page of Jeff Carlin, an astronomer/astrophysicist who currently works at the Project Office of Large Synoptic Survey Telescope (LSST) in Tucson, AZ."
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -241,11 +241,6 @@ enableGitInfo = false
     link = "https://ui.adsabs.harvard.edu/#search/q=author%3A%22carlin%2C%20jeffrey%20l.%22%20database%3A%22astronomy%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
 
 #  [[params.social]]
-#    icon = "twitter"
-#    icon_pack = "fab"
-#    link = "//twitter.com/GeorgeCushen"
-
-#  [[params.social]]
 #    icon = "google-scholar"
 #    icon_pack = "ai"
 #    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
@@ -271,6 +266,11 @@ enableGitInfo = false
     icon = "linkedin"
     icon_pack = "fab"
     link = "www.linkedin.com/in/jeff-carlin-614436150"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "//twitter.com/JeffCarlinastro"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
