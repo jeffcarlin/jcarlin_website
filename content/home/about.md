@@ -41,6 +41,6 @@ weight = 5
 
 +++
 
-# Biography
+# About me
 
-Jeff Carlin is an astrophysicist. His research is focused on understanding the formation and evolution of our Milky Way and other nearby galaxies based on their populations of stars. Of particular interest is finding and measuring the properties of satellite dwarf galaxies that accompany most larger galaxies. Jeff has also worked on measuring the motions and chemical abundances of stars in stellar streams around the Milky Way. Studying these remnants that are left behind when our Galaxy's gravitational field rips apart the satellite dwarfs helps us to infer the properties of the dwarf galaxies before they were swallowed by the Milky Way.
+I am an astrophysicist, currently working as a Research Associate at the Project Office of the [Large Synoptic Survey Telescope (LSST)](https://lsst.org). My research is focused on understanding the formation and evolution of our Milky Way and other nearby galaxies based on their populations of stars. Of particular interest is finding and measuring the properties of satellite dwarf galaxies that accompany most larger galaxies. I also work on measuring the motions and chemical abundances of stars in stellar streams around the Milky Way. Studying these remnants that are left behind when our Galaxy's gravitational field rips apart the satellite dwarfs helps us to infer the properties of the dwarf galaxies before they were swallowed by the Milky Way.
