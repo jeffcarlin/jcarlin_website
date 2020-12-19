@@ -11,11 +11,11 @@ baseurl = "http://jeffcarlin.github.io/"
 # Title of your site
 title = "Jeff Carlin"
 
-description = "Home page of Jeff Carlin, an astronomer/astrophysicist who currently works at the Project Office of Large Synoptic Survey Telescope (LSST) in Tucson, AZ."
+description = "Home page of Jeff Carlin, an astronomer/astrophysicist who currently works at the Project Office of Vera c. Rubin Observatory in Tucson, AZ."
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2020"
 
 theme = "academic"
 enableEmoji = true
@@ -64,12 +64,12 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Large Synoptic Survey Telescope (LSST)", url = "" } ]
+  organizations = [ { name = "Vera C. Rubin Observatory", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "jeff_germany_jul2018.png" # portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jeffreylcarlin@gmail.com"
-  address = "LSST, 950 N. Cherry Ave., Tucson, AZ 85716 USA"
+  address = "AURA/Rubin Observatory, 950 N. Cherry Ave., Tucson, AZ 85716 USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "434 981 6902"
   skype = "jeffcarlin"
@@ -260,7 +260,7 @@ enableGitInfo = false
    [[params.social]]
      icon = "cv"
      icon_pack = "ai"
-     link = "files/cv.pdf"
+     link = "files/jcarlin_CV_dec2020_website.pdf"
 
   [[params.social]]
     icon = "linkedin"
@@ -287,7 +287,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "CV"
-  url = "files/cv.pdf"
+  url = "files/jcarlin_CV_dec2020_website.pdf"
   weight = 2
 
 [[menu.main]]
